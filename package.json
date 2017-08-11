@@ -1,0 +1,27 @@
+{
+    "name": "layoutmode",
+    "version": "0.0.1",
+    "description": "Library that allows organizing CSS rules for different loayout modes",
+    "main": "riotcomponent.js",
+    "scripts": {
+        "minify": "minify --output layout-mode.min.js layout-mode.js; minify --output layout-mode.min.css layout-mode.css",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/NawaMan/LayoutMode.git"
+    },
+    "keywords": [
+        "CSS",
+        "Layout",
+        "Mode"
+    ],
+    "author": "Nawapunth Manusitthipol <nawa@nawaman.net> (https://github.com/NawaMan/LayoutMode)",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/NawaMan/LayoutMode/issues"
+    },
+    "homepage": "https://github.com/NawaMan/LayoutMode#readme",
+    "dependencies": {
+    }
+}
