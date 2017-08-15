@@ -15,7 +15,7 @@
         init: function(pConfigureOrAllModes, pModeClassPrefix, pSelectorClass, pModeDivPrefix) {
             var bodyClassList =  document.body.classList
 
-            var isConfig = pConfigureOrAllModes.varructor !== Array
+            var isConfig = pConfigureOrAllModes.constructor !== Array
             var config   = isConfig ? pConfigureOrAllModes : {}
             var allModes        = (isConfig ? config.modes         : pConfigureOrAllModes)
             var modeClassPrefix = (isConfig ? config.classPrefix   : pModeClassPrefix) || 'mode-'
