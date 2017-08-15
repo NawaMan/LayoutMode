@@ -117,13 +117,11 @@ Try the above out here [Live demo on jsFiddle](https://jsfiddle.net/xxu9ae03/1/ 
 
 ## CDN
 ### Non-Minified
-https://cdn.rawgit.com/NawaMan/LayoutMode/master/layout-mode.js
-
-https://cdn.rawgit.com/NawaMan/LayoutMode/master/layout-mode.css
+- https://cdn.rawgit.com/NawaMan/LayoutMode/master/layout-mode.js
+- https://cdn.rawgit.com/NawaMan/LayoutMode/master/layout-mode.css
 
 ### Minifie
-https://cdn.rawgit.com/NawaMan/LayoutMode/master/layout-mode.min.js
-
-https://cdn.rawgit.com/NawaMan/LayoutMode/master/layout-mode.min.css
+- https://cdn.rawgit.com/NawaMan/LayoutMode/master/layout-mode.min.js
+- https://cdn.rawgit.com/NawaMan/LayoutMode/master/layout-mode.min.css
 
 
