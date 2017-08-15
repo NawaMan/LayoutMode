@@ -1,6 +1,7 @@
 /** Layout Mode Presentation - feel free to modify */
 
 body > .css-layout-mode-selector {
+    display: block;
     position: fixed;
     background-color: lightskyblue;
     z-index: 1000000;
