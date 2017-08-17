@@ -22,6 +22,11 @@ You can also have multiple mode at the same time as they are independent.
 For example, you may have 'compact' and 'spacious' for different resoluation and also have 'normal-contrast' and 'high-contrast' for font size and color scheme.
 Then at one time, the mode might be `['spacious', 'high-contrast']`.
 
+
+## DEMO
+Try the above out here [Live demo on jsFiddle](https://jsfiddle.net/wnf9e968/2/ "Live demo on jsFiddle!")
+
+
 # How to use
 First you need to include the library to your page. See below for CDN or NPM options.
 
@@ -108,10 +113,6 @@ Other team members can also work independently on different modes.
 With the names clearly spell out on the rules, it is harder to step on each other's toes.
 You can even go further and separate css files for each modes.
 
-
-## DEMO
-Try the above out here [Live demo on jsFiddle](https://jsfiddle.net/wnf9e968/1/ "Live demo on jsFiddle!")
-
 ## NPM
     npm install layoutmode
 
@@ -125,3 +126,12 @@ Try the above out here [Live demo on jsFiddle](https://jsfiddle.net/wnf9e968/1/ 
 - https://cdn.rawgit.com/NawaMan/LayoutMode/master/layout-mode.min.css
 
 
+## Links
+### GitHub
+https://github.com/NawaMan/LayoutMode
+### GitHub Page
+https://nawaman.github.io/LayoutMode/
+### NPM page
+https://www.npmjs.com/package/layoutmode
+## DEMO
+https://jsfiddle.net/wnf9e968/2/
