@@ -155,7 +155,8 @@
                 clearModes:clearModes,
                 selector:selector,
                 watch:watch,
-                unwatch:unwatch
+                unwatch:unwatch,
+                updateMode:updateMode
             }
             return self
         }
