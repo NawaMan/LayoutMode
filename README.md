@@ -87,7 +87,7 @@ By default, with the above mode, the current mode name is shown on the left-butt
 You can ask LayoutMode to notify when the mode has changed.
 This is useful if you need to programmatically do something when mode change from one to another.
 
-    layoutMode.watch(modes=>{
+    layoutMode.watch(function(modes) {
         console.log(modes)
     })
 
@@ -110,7 +110,7 @@ You can even go further and separate css files for each modes.
 
 
 ## DEMO
-Try the above out here [Live demo on jsFiddle](https://jsfiddle.net/xxu9ae03/1/ "Live demo on jsFiddle!")
+Try the above out here [Live demo on jsFiddle](https://jsfiddle.net/wnf9e968/1/ "Live demo on jsFiddle!")
 
 ## NPM
     npm install layoutmode
