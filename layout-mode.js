@@ -125,18 +125,22 @@
             }
 
             var writeSelector = function(write) {
-                var out = write || function(text) { document.write(text) }
-                out('<div class="' + selectorClass + '">')
+                var outterDiv = document.createElement('div')
+                outterDiv.classList.add(selectorClass)
                 for (var i = 0; i < allModes.length; i++) {
                     var mode = allModes[i]
-                    out('<div class="' + modeDivPrefix + mode + '">' + mode + '</div>')
+                    var innerDiv = document.createElement('div')
+                    innerDiv.classList.add(modeDivPrefix + mode)
+                    innerDiv.innerText = mode
+                    outterDiv.appendChild(innerDiv)
                 }
-                out('</div>')
+                var styleDiv = document.createElement('style')
+                styleDiv.innerText
+                    = 'body > .' + selectorClass + ' { visibility: hidden; } \n'
+                    + 'body > .' + selectorClass + ' > div { display: none; }\n'
+                outterDiv.appendChild(styleDiv)
 
-                out('<style>')
-                out('body > .' + selectorClass + ' { visibility: hidden; }')
-                out('body > .' + selectorClass + ' > div { display: none; }')
-                out('</style>')
+                document.body.appendChild(outterDiv)
             }
 
             writeSelector()
