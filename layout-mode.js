@@ -147,6 +147,7 @@
             listen("DOMContentLoaded", updateMode)
             listen("load",   updateMode)
             listen('resize', updateMode)
+            updateMode()
 
             var self = {
                 currentModes:currentModes,
