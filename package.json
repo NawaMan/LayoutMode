@@ -1,6 +1,6 @@
 {
   "name": "layoutmode",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Library that allows organizing CSS rules for different loayout modes",
   "main": "layout-mode.min.js",
   "scripts": {
@@ -21,7 +21,7 @@
   "bugs": {
     "url": "https://github.com/NawaMan/LayoutMode/issues"
   },
-  "homepage": "https://github.com/NawaMan/LayoutMode#readme",
+  "homepage": "https://nawaman.github.io/LayoutMode/",
   "dependencies": {},
   "devDependencies": {}
 }
