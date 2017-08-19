@@ -32,7 +32,7 @@
                     var modeDiv = modeDivs[i]
                     if (getComputedStyle(modeDiv, null).display !== 'none') {
                         var foundMode = modeDiv.textContent
-                        if (!modes.includes(foundMode))
+                        if (modes.indexOf(foundMode) == -1)
                             modes.push(foundMode)
                     }
                 }
