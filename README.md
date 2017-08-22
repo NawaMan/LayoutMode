@@ -1,6 +1,8 @@
 # LayoutMode
 LayoutMode helpes to organize CSS rules for resposive website.
 
+[![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url]
+
 # Introduction
 LayoutMode allows CSS rules to be organized into modes which are in turned controlled by media query.
 In the nute shell, LM decouple media query and the CSS rules.
@@ -135,3 +137,7 @@ https://nawaman.github.io/LayoutMode/
 https://www.npmjs.com/package/layoutmode
 ## DEMO
 https://jsfiddle.net/wnf9e968/2/
+
+[npm-url]: https://npmjs.org/package/layoutmode
+[downloads-image]: http://img.shields.io/npm/dm/layoutmode.svg
+[npm-image]: http://img.shields.io/npm/v/layoutmode.svg
