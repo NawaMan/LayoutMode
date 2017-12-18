@@ -24,7 +24,7 @@ Then at one time, the mode might be `['spacious', 'high-contrast']`.
 
 
 ## DEMO
-Try the above out here [Live demo on jsFiddle](https://jsfiddle.net/wnf9e968/2/ "Live demo on jsFiddle!")
+Try the above out here [Live demo on jsFiddle](https://jsfiddle.net/wnf9e968/14/ "Live demo on jsFiddle!")
 
 
 # How to use
@@ -134,4 +134,4 @@ https://nawaman.github.io/LayoutMode/
 ### NPM page
 https://www.npmjs.com/package/layoutmode
 ## DEMO
-https://jsfiddle.net/wnf9e968/2/
+https://jsfiddle.net/wnf9e968/14/
